@@ -26,6 +26,6 @@ define( 'CHILD_THEME_AUTHOR_URI', $theme->get( 'Author URI' ) );
 /* Bootstrap
 ==============================================================================*/
 
-require_once( '/includes/document-head.php' ); // controls styles, scripts, and meta tags
-require_once( '/includes/shortcodes.php' ); // controls child theme shortcodes
-require_once( '/includes/update.php' ); // controls theme updates
+require_once( 'includes/document-head.php' ); // controls styles, scripts, and meta tags
+require_once( 'includes/shortcodes.php' ); // controls child theme shortcodes
+require_once( 'includes/update.php' ); // controls theme updates
