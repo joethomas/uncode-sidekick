@@ -29,9 +29,3 @@ define( 'CHILD_THEME_AUTHOR_URI', $theme->get( 'Author URI' ) );
 require_once( 'includes/document-head.php' ); // controls styles, scripts, and meta tags
 require_once( 'includes/shortcodes.php' ); // controls child theme shortcodes
 require_once( 'includes/update.php' ); // controls theme updates
-
-
-/* Updates
-==============================================================================*/
-
-define( 'GITHUB_UPDATER_EXTENDED_NAMING', true );
