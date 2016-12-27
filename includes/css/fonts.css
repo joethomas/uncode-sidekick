@@ -1,0 +1,166 @@
+/*
+Custom Fonts
+Author: Joe Thomas
+Author URI: http://joethomas.co
+*/
+
+/*============================================================================*/
+/*============================================================================*/
+/*============================                    ============================*/
+/*============================    Custom Fonts    ============================*/
+/*============================                    ============================*/
+/*============================================================================*/
+/*============================================================================*/
+
+
+/* Fonts
+------------------------------------------------------------------------------*/
+
+/* Gibson */
+
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/Gibson-SemiBold-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Gibson-SemiBold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Gibson-SemiBold-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/Gibson-SemiBold-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Gibson-SemiBold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Gibson-SemiBold-webfont.svg#gibsonsemibold') format('svg'); /* Legacy iOS */
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/Gibson-SemiBoldItalic-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Gibson-SemiBoldItalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Gibson-SemiBoldItalic-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/Gibson-SemiBoldItalic-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Gibson-SemiBoldItalic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Gibson-SemiBoldItalic-webfont.svg#gibsonsemibold_italic') format('svg'); /* Legacy iOS */
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/Gibson-SemiBold-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Gibson-SemiBold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Gibson-SemiBold-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/Gibson-SemiBold-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Gibson-SemiBold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Gibson-SemiBold-webfont.svg#gibsonsemibold') format('svg'); /* Legacy iOS */
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/Gibson-SemiBoldItalic-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Gibson-SemiBoldItalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Gibson-SemiBoldItalic-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/Gibson-SemiBoldItalic-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Gibson-SemiBoldItalic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Gibson-SemiBoldItalic-webfont.svg#gibsonsemibold_italic') format('svg'); /* Legacy iOS */
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/Gibson-Regular-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Gibson-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Gibson-Regular-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/Gibson-Regular-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Gibson-Regular-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Gibson-Regular-webfont.svg#gibsonregular') format('svg'); /* Legacy iOS */
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/Gibson-Italic-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Gibson-Italic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Gibson-Italic-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/Gibson-Italic-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Gibson-Italic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Gibson-Italic-webfont.svg#gibsonitalic') format('svg'); /* Legacy iOS */
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/Gibson-Light-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Gibson-Light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Gibson-Light-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/Gibson-Light-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Gibson-Light-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Gibson-Light-webfont.svg#gibsonlight') format('svg'); /* Legacy iOS */
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gibson';
+	src: url('../fonts/Gibson-LightItalic-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Gibson-LightItalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Gibson-LightItalic-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/Gibson-LightItalic-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Gibson-LightItalic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Gibson-LightItalic-webfont.svg#gibsonlight_italic') format('svg'); /* Legacy iOS */
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+/* Carto Gothic */
+
+@font-face {
+	font-family: 'Carto Gothic';
+	src: url('../fonts/cartogothicstd-bold-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/cartogothicstd-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/cartogothicstd-bold-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/cartogothicstd-bold-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/cartogothicstd-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/cartogothicstd-bold-webfont.svg#cartogothic_stdbold') format('svg'); /* Legacy iOS */
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Carto Gothic';
+	src: url('../fonts/cartogothicstd-bolditalic-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/cartogothicstd-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/cartogothicstd-bolditalic-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/cartogothicstd-bolditalic-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/cartogothicstd-bolditalic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/cartogothicstd-bolditalic-webfont.svg#cartogothic_stdbold_italic') format('svg'); /* Legacy iOS */
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Carto Gothic';
+	src: url('../fonts/cartogothicstd-book-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/cartogothicstd-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/cartogothicstd-book-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/cartogothicstd-book-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/cartogothicstd-book-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/cartogothicstd-book-webfont.svg#cartogothic_stdregular') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Carto Gothic';
+	src: url('../fonts/cartogothicstd-italic-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/cartogothicstd-italic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/cartogothicstd-italic-webfont.woff2') format('woff2'), /* More Modern Browsers */
+		 url('../fonts/cartogothicstd-italic-webfont.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/cartogothicstd-italic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/cartogothicstd-italic-webfont.svg#cartogothic_stditalic') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: italic;
+}

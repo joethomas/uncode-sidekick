@@ -1,0 +1,385 @@
+/*
+Uncode Sidekick Styles
+Author: Joe Thomas
+Author URI: https://github.com/joethomas
+*/
+
+/*============================================================================*/
+/*============================================================================*/
+/*===========================                      ===========================*/
+/*===========================    Brand Styles      ===========================*/
+/*===========================                      ===========================*/
+/*============================================================================*/
+/*============================================================================*/
+/*====                                                                    ====*/
+/*====  IMPORTANT: Add Uncode theme overrides in Uncode Core Mods Plugin  ====*/
+/*====                                                                    ====*/
+/*============================================================================*/
+/*============================================================================*/
+
+
+/* Typography
+==============================================================================*/
+
+/* Set base font-size */
+
+body,
+.row-inner div[class*=col-lg-] {
+	font-size: 16px;
+}
+
+sub,
+sup {
+	font-size: 50%;
+}
+
+sup {
+	top: -0.8em;
+}
+
+figcaption {
+	font-size: .875em;
+}
+
+
+/* Single Media
+==============================================================================*/
+
+.uncode-single-media-wrapper.tmb-shadow {
+	margin-bottom: 0;
+}
+
+.banner-corner {
+	position: absolute !important;
+	width: 30%;
+	max-width: 300px;
+}
+
+.banner-corner.top {
+	top: 0;
+}
+
+.banner-corner.right {
+	right: 0;
+}
+
+.banner-corner.left {
+	left: 0;
+}
+
+
+/* Inline Button
+==============================================================================*/
+
+.btn-container.btn-inline {
+	vertical-align: inherit;
+}
+
+
+/* Header Scroll Down Arrow
+==============================================================================*/
+
+.header-wrapper .header-scrolldown,
+.header-wrapper .header-scrolldown i {
+	display: block;
+	width: 1em;
+	text-align: center;
+	font-size: 44px;
+}
+
+.header-wrapper .header-scrolldown {
+	margin-left: -.5em;
+}
+
+
+/* Custom Scroll Down Arrow
+==============================================================================*/
+
+.joe-scrolldown,
+.joe-scrolldown i {
+	display: block;
+	width: 1em;
+	text-align: center;
+	font-size: 44px;
+}
+
+.joe-scrolldown {
+	position: absolute;
+	left: 50%;
+	z-index: 100;
+	margin-top: 36px;
+	margin-left: -.5em;
+	opacity: 1.0;
+/*
+		-webkit-transition: opacity 0.5s;
+		-moz-transition: opacity 0.5s;
+		-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+*/
+		-webkit-transition-delay: 0.2s;
+		-moz-transition-delay: 0.2s;
+		-o-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+		-webkit-transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s linear 0.2s !important;
+		-moz-transition: -moz-transform 0.2s ease-in-out, opacity 0.2s linear 0.2s !important;
+		-o-transition: -o-transform 0.2s ease-in-out, opacity 0.2s linear 0.2s !important;
+	transition: -webkit-transform 0.2s ease-in-out,-moz-transform 0.2s ease-in-out,-o-transform 0.2s ease-in-out,transform 0.2s ease-in-out, opacity 0.2s linear 0.2s !important;
+	color: #303133;
+}
+
+.joe-scrolldown a,
+.joe-scrolldown a:hover,
+.joe-scrolldown a:focus,
+.style-light .joe-scrolldown a,
+.style-light .joe-scrolldown a:hover,
+.style-light .joe-scrolldown a:focus {
+	color: #303133;
+}
+
+.style-dark .joe-scrolldown a,
+.style-dark .joe-scrolldown a:hover,
+.style-dark .joe-scrolldown a:focus {
+	color: #fff;
+}
+
+.joe-scrolldown:hover {
+		-webkit-transform: translateY(3px);
+		-moz-transform: translateY(3px);
+		-o-transform: translateY(3px);
+		-ms-transform: translateY(3px);
+	transform: translateY(3px);
+	opacity: .8 !important;
+}
+
+/* Spacing Fixes
+==============================================================================*/
+
+.icon-box-left .icon-box-content:not(.add-margin) p {
+	margin-top: .375em;
+}
+
+
+/* Helper Classes
+==============================================================================*/
+
+/**
+ * .collapse-top-margin
+ * Remove top margin of Visual Composer element
+ */
+.main-container .row-container .row-parent .single-internal-gutter .uncont > .collapse-top-margin_wrapper,
+.main-container .row-container .row-parent .single-internal-gutter .uncont > .collapse-top-margin {
+    margin-top: 0;
+}
+
+/**
+ * .collapse-bottom-margin
+ * Remove bottom margin of Visual Composer element
+ */
+.main-container .row-container .row-parent .single-internal-gutter .uncont > .collapse-bottom-margin_wrapper,
+.main-container .row-container .row-parent .single-internal-gutter .uncont > .collapse-top-margin {
+    margin-bottom: 0;
+}
+
+/**
+ * .heading-text-shadow
+ * Add a text-shadow to Visual Composer Heading element
+ */
+.heading-text-shadow span,
+.heading-text-shadow p {
+	text-shadow: 0 0 .25em rgba(0, 0, 0, 0.3);
+}
+
+/** .row-inner-collapse
+ * Remove padding on Visual Composer inner rows when inner row has class of row-inner-collapse
+ */
+.main-container .row-container.row-inner-collapse .row-child .row-inner {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.main-container .row-container.row-inner-collapse-top .row-child .row-inner {
+	padding-top: 0;
+}
+
+.main-container .row-container.row-inner-collapse-bottom .row-child .row-inner {
+	padding-bottom: 0;
+}
+
+
+/* Font Icons
+==============================================================================*/
+
+/* Move icons down a bit to line up with adjacent text */
+a.btn .fa,
+button .fa,
+h1 .fa:not(.fa-li),
+h2 .fa:not(.fa-li),
+h3 .fa:not(.fa-li),
+h4 .fa:not(.fa-li),
+h5 .fa:not(.fa-li),
+h6 .fa:not(.fa-li) {
+	display: inline-block;
+	transform: translateY(.075em);
+}
+
+/* Gravity Forms
+==============================================================================*/
+
+/* Field Description Mods */
+.gform_wrapper .top_label .gfield_description {
+    padding: .15em 0 0 1.4em;
+}
+
+/* Submit Button */
+.gform_wrapper input[type="submit"],
+.gform_wrapper input[type="reset"],
+.gform_wrapper input[type="button"],
+.gform_wrapper button[type="submit"],
+.gform_wrapper input.button {
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+
+
+.style-light .gform_wrapper input.button,
+.style-dark .gform_wrapper input.button,
+.style-light .gform_wrapper input[type="submit"],
+.style-dark .gform_wrapper input[type="submit"] {
+	background-color: #ee2e24;
+	color: #fff;
+}
+
+.style-light .gform_wrapper input.button:hover,
+.style-dark .gform_wrapper input.button:hover,
+.style-light .gform_wrapper input[type="submit"]:hover,
+.style-dark .gform_wrapper input[type="submit"]:hover,
+.style-light .gform_wrapper input.button:focus,
+.style-dark .gform_wrapper input.button:focus,
+.style-light .gform_wrapper input[type="submit"]:focus,
+.style-dark .gform_wrapper input[type="submit"]:focus {
+	background-color: transparent;
+	border-color: #ee2e24;
+	color: #ee2e24;
+}
+
+
+/* Custom Fields
+==============================================================================*/
+
+span.custom-field.id-deal-keyword {
+    padding: 2px 8px;
+    border: 2px solid #f1a640;
+    font-family: monospace;
+    font-size: 1.07em;
+    white-space: nowrap;
+}
+
+/* Single Deal Page Customizations
+==============================================================================*/
+
+article.deal .post-footer {
+	display: none;
+}
+
+/*body.single-deal .row-navigation {
+	display: none;
+}*/
+
+article.deal .uncode-single-media figcaption {
+	text-align: center;
+}
+
+/* Amazon Listing
+------------------------------------------------------------------------------*/
+
+.amazon-listing *::selection {
+	background: #b1d7fe;
+	color: inherit !important;
+}
+
+.amazon-listing-title {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.25;
+	color: #0066c0;
+}
+
+.amazon-product-metadata {
+	color: #666;
+}
+
+.amazon-product-metadata > * {
+	vertical-align: middle;
+}
+
+.amazon-product-star-rating,
+.amazon-product-review-details-caret,
+.amazon-product-reviews {
+	display: inline-block;
+}
+
+.amazon-product-star-rating {
+	position: relative;
+	font-size: 18px;
+	line-height: 1;
+}
+
+.amazon-product-star-rating-base {
+	display: block;
+	color: #ffa700;
+	z-index: 0;
+}
+
+.amazon-product-star-rating-fill {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #ffa700;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.amazon-product-star-rating-fill.rating-0-5 {
+	width: 10%;
+}
+
+.amazon-product-star-rating-fill.rating-1-0 {
+	width: 20%;
+}
+
+.amazon-product-star-rating-fill.rating-1-5 {
+	width: 30%;
+}
+
+.amazon-product-star-rating-fill.rating-2-0 {
+	width: 40%;
+}
+
+.amazon-product-star-rating-fill.rating-2-5 {
+	width: 50%;
+}
+
+.amazon-product-star-rating-fill.rating-3-0 {
+	width: 60%;
+}
+
+.amazon-product-star-rating-fill.rating-3-5 {
+	width: 70%;
+}
+
+.amazon-product-star-rating-fill.rating-4-0 {
+	width: 80%;
+}
+
+.amazon-product-star-rating-fill.rating-4-5 {
+	width: 90%;
+}
+
+.amazon-product-star-rating-fill.rating-5-0 {
+	width: 100%;
+}
+
+.amazon-product-reviews {
+	color: #0066c0;
+}
