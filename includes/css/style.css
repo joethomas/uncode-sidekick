@@ -21,13 +21,6 @@ Author URI: https://github.com/joethomas
 /* Typography
 ==============================================================================*/
 
-/* Set base font-size */
-
-body,
-.row-inner div[class*=col-lg-] {
-	font-size: 16px;
-}
-
 sub,
 sup {
 	font-size: 50%;

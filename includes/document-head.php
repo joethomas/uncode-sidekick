@@ -34,10 +34,10 @@ function uncode_sidekick_child_theme_enqueue_styles() {
 	wp_enqueue_style( $parent_style, get_template_directory_uri() . '/library/css/style.css', array(), $resources_version );
 
 	// Custom fonts stylesheet
-	wp_enqueue_style( CHILD_THEME_PREFIX . '-fonts', '/css/fonts.css', $deps, $resources_version );
+	wp_enqueue_style( CHILD_THEME_PREFIX . '-fonts', get_stylesheet_directory_uri() . '/includes/css/fonts.css', $deps, $resources_version );
 
 	// Child theme stylesheet
-	wp_enqueue_style( CHILD_THEME_PREFIX, '/css/style.css', $deps, $resources_version );
+	wp_enqueue_style( CHILD_THEME_PREFIX, get_stylesheet_directory_uri() . '/includes/css/style.css', $deps, $resources_version );
 
 }
 add_action( 'wp_enqueue_scripts', 'uncode_sidekick_child_theme_enqueue_styles' );
@@ -51,7 +51,7 @@ function uncode_sidekick_login_enqueue_styles() {
 	$resources_version = ( $production_mode === 'on' ) ? CHILD_THEME_VERSION : rand();
 	$deps              = array();
 
-	wp_enqueue_style( CHILD_THEME_PREFIX . '-login', '/css/login.css', array(), $resources_version );
+	wp_enqueue_style( CHILD_THEME_PREFIX . '-login', get_stylesheet_directory_uri() . '/includes/css/login.css', array(), $resources_version );
 
 }
 add_action( 'login_enqueue_scripts', 'uncode_sidekick_login_enqueue_styles' );
